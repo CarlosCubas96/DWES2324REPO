@@ -1,0 +1,46 @@
+/* Estilos para la página de índice */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	background-color: #007BFF;
+	color: white;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin: 10px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	background-color: #007BFF;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+a:hover {
+	background-color: #0056b3;
+}
+
+/* Estilos para el contenido de las páginas */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
